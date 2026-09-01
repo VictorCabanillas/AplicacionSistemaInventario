@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce la IP y puerto del servidor"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etServerUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="192.168.1.50:8080"
+        android:textColor="#212121"
+        android:textColorHint="#9E9E9E"
+        android:textSize="16sp"
+        android:inputType="textUri"
+        android:singleLine="true"
+        android:padding="12dp"
+        android:background="@drawable/bg_edittext_rounded" />
+
+</LinearLayout>
